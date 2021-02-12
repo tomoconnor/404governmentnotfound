@@ -96,15 +96,15 @@
                     <h2 class="section-heading text-uppercase">Registration</h2>
                     <h3 class="section-subheading text-muted">Register to Join the Hackathon</h3>
                 </div>
-                <form id="contactForm" name="sentMessage" novalidate="novalidate" action="https://getform.io/f/a8b51681-ca92-437c-b6dc-3d50c269a269" method="POST">
+                <form id="contactForm" name="sentMessage" action="https://getform.io/f/a8b51681-ca92-437c-b6dc-3d50c269a269" method="POST">
                     <div class="row align-items-stretch mb-5">
                         <div class="col-md-12">
                             <div class="form-group">
-                                <input class="form-control" id="name" type="text" placeholder="Your Name *" required="required" data-validation-required-message="Please enter your name." />
+                                <input class="form-control" id="name" type="text" placeholder="Your Name *" required="required" name="registrant_name" />
                                 <p class="help-block text-danger"></p>
                             </div>
                             <div class="form-group">
-                                <input class="form-control" id="email" type="email" placeholder="Your Email *" required="required" data-validation-required-message="Please enter your email address." />
+                                <input class="form-control" id="email" type="email" placeholder="Your Email *" required="required" name="registrant_email"  />
                                 <p class="help-block text-danger"></p>
                             </div>
 
@@ -177,9 +177,6 @@
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js"></script>
         <!-- Third party plugin JS-->
         <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.4.1/jquery.easing.min.js"></script>
-        <!-- Contact form JS-->
-        <script src="assets/mail/jqBootstrapValidation.js"></script>
-
         <!-- Core theme JS-->
         <script src="js/scripts.js"></script>
     </body>
