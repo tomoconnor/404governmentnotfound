@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+        <meta name="description" content="" />
+        <meta name="author" content="" />
+        <title>404: Government Not Found</title>
+        <link rel="icon" type="image/x-icon" href="assets/img/favicon.ico" />
+        <!-- Font Awesome icons (free version)-->
+        <script src="https://use.fontawesome.com/releases/v5.15.1/js/all.js" crossorigin="anonymous"></script>
+        <!-- Google fonts-->
+        <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css" />
+        <link href="https://fonts.googleapis.com/css?family=Droid+Serif:400,700,400italic,700italic" rel="stylesheet" type="text/css" />
+        <link href="https://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700" rel="stylesheet" type="text/css" />
+        <!-- Core theme CSS (includes Bootstrap)-->
+        <link href="css/styles.css" rel="stylesheet" />
+    </head>
+    <body id="page-top">
+        <!-- Navigation-->
+        <nav class="navbar navbar-expand-lg navbar-dark fixed-top" id="mainNav">
+            <div class="container">
+                <a class="navbar-brand js-scroll-trigger" href="#page-top"></a>
+                <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+                    Menu
+                    <i class="fas fa-bars ml-1"></i>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarResponsive">
+                    <ul class="navbar-nav text-uppercase ml-auto">
+                        <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#information">Information</a></li>
+                        <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#register">Register</a></li>
+                        <li class="nav-item"><a class="nav-link js-scroll-trigger" href="/code-of-conduct.html">Code Of Conduct</a></li>
+                        <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#team">Team</a></li>
+  
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <!-- Masthead-->
+        <header class="masthead">
+            <div class="container">
+                <div class="masthead-heading text-uppercase">404: <br/> Government Not Found </div>
+                <div class="masthead-subheading">Reboot Government Hackathon</div>
+                <h3 class="masthead-subheading">16th - 17th April 2021</h3>
+                <a class="btn btn-success btn-xl text-uppercase js-scroll-trigger" href="#information">Tell Me More</a>
+            </div>
+        </header>
+        <!-- information-->
+        <section class="page-section" id="information">
+            <div class="container">
+                <div class="text-center">
+                    <h2 class="section-heading text-uppercase">What?</h2>
+                    <h3 class="section-subheading text-muted">It's been a long while since the last general Government hackathon. </h3>
+                </div>
+                <div class="row text-center">
+                    <div class="col-md-3">
+                        <span class="fa-stack fa-4x">
+                            <i class="fas fa-circle fa-stack-2x text-success"></i>
+                            <i class="fas fa-ticket-alt fa-stack-1x fa-inverse"></i>
+                        </span>
+                        <h4 class="my-3">Register</h4>
+                        <p class="text-muted">Register for the Hackathon</p>
+                    </div>
+                    <div class="col-md-3">
+                        <span class="fa-stack fa-4x">
+                            <i class="fas fa-circle fa-stack-2x text-success"></i>
+                            <i class="fas fa-laptop fa-stack-1x fa-inverse"></i>
+                        </span>
+                        <h4 class="my-3">Make Something</h4>
+                        <p class="text-muted">Improve something about Government that scratches a personal itch.</p>
+                    </div>
+                    <div class="col-md-3">
+                        <span class="fa-stack fa-4x">
+                            <i class="fas fa-circle fa-stack-2x text-success"></i>
+                            <i class="fas fa-cloud fa-stack-1x fa-inverse"></i>
+                        </span>
+                        <h4 class="my-3">Demo your Project</h4>
+                        <p class="text-muted">Show what you've created to the community.</p>
+                    </div>
+                    <div class="col-md-3">
+                        <span class="fa-stack fa-4x">
+                            <i class="fas fa-circle fa-stack-2x text-success"></i>
+                            <i class="fas fa-award fa-stack-1x fa-inverse"></i>
+                        </span>
+                        <h4 class="my-3">Win a Prize?</h4>
+                        <p class="text-muted">If your project is selected by the panel of judges, you win a prize!</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+         <!-- register-->
+         <section class="page-section" id="register">
+            <div class="container">
+                <div class="text-center">
+                    <h2 class="section-heading text-uppercase">Registration</h2>
+                    <h3 class="section-subheading text-muted">Register to Join the Hackathon</h3>
+                </div>
+                <form id="contactForm" name="sentMessage" novalidate="novalidate" action="https://getform.io/f/a8b51681-ca92-437c-b6dc-3d50c269a269" method="POST">
+                    <div class="row align-items-stretch mb-5">
+                        <div class="col-md-12">
+                            <div class="form-group">
+                                <input class="form-control" id="name" type="text" placeholder="Your Name *" required="required" data-validation-required-message="Please enter your name." />
+                                <p class="help-block text-danger"></p>
+                            </div>
+                            <div class="form-group">
+                                <input class="form-control" id="email" type="email" placeholder="Your Email *" required="required" data-validation-required-message="Please enter your email address." />
+                                <p class="help-block text-danger"></p>
+                            </div>
+
+                        </div>
+                        
+                    </div>
+                    <div class="text-center">
+                        <div id="success"></div>
+                        <button class="btn btn-success btn-xl text-uppercase" id="sendMessageButton" type="submit">Register Me!</button>
+                    </div>
+                </form>
+            </div>
+        </section>
+
+
+        <!-- Team-->
+        <section class="page-section bg-light" id="team">
+            <div class="container">
+                <div class="text-center">
+                    <h2 class="section-heading text-uppercase">Our Amazing Team</h2>
+                    <h3 class="section-subheading text-muted">They make all the things happen.</h3>
+                </div>
+                <div class="row">
+                    <div class="col-lg-4">
+                        <div class="team-member">
+                            <img class="mx-auto rounded-circle" src="assets/img/team/1.jpg" alt="" />
+                            <h4>Hugh Wells</h4>
+                            <p class="text-muted">Hacker-in-Residence</p>
+                            <a class="btn btn-dark btn-social mx-2" href="https://twitter.com/crablabuk"><i class="fab fa-twitter"></i></a>
+                        </div>
+                    </div>
+                    <div class="col-lg-4">
+                        <div class="team-member">
+                            <img class="mx-auto rounded-circle" src="assets/img/team/2.jpg" alt="" />
+                            <h4>Tom O'Connor</h4>
+                            <p class="text-muted">Packet Wrangler</p>
+                            <a class="btn btn-dark btn-social mx-2" href="https://twitter.com/devopstom"><i class="fab fa-twitter"></i></a>
+                        </div>
+                    </div>
+                    <div class="col-lg-4">
+                        <div class="team-member">
+                            <img class="mx-auto rounded-circle" src="assets/img/team/3.jpg" alt="" />
+                            <h4>David Durant</h4>
+                            <p class="text-muted">Delivery Manager</p>
+                            <a class="btn btn-dark btn-social mx-2" href="https://twitter.com/cholten99"><i class="fab fa-twitter"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-lg-8 mx-auto text-center"><p class="large text-muted">“Let’s go invent tomorrow instead of worrying about what happened yesterday.” – Steve Jobs </p></div>
+                </div>
+            </div>
+        </section>
+        
+       
+    <!-- Footer-->
+    <footer class="footer py-4">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-lg-4 text-lg-left">Copyright  &copy; 404: Government Not Found 2021 </div>
+                <div class="col-lg-4 my-3 my-lg-0">
+                    <a class="btn btn-dark btn-social mx-2" href="https://twitter.com/404government"><i class="fab fa-twitter"></i></a>
+                </div>
+                
+            </div>
+        </div>
+    </footer>
+        <!-- Bootstrap core JS-->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js"></script>
+        <!-- Third party plugin JS-->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.4.1/jquery.easing.min.js"></script>
+        <!-- Contact form JS-->
+        <script src="assets/mail/jqBootstrapValidation.js"></script>
+
+        <!-- Core theme JS-->
+        <script src="js/scripts.js"></script>
+    </body>
+</html>
